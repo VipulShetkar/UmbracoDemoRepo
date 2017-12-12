@@ -1,0 +1,10 @@
+﻿@using ContentModels=Umbraco.Web.IPublishContentModels;
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Media>
+    
+@{
+	Layout = null;
+}
+
+@* the fun starts here *@
+
+@Umbraco.Field("helios", recursive: true)
